@@ -9,6 +9,7 @@
 
 
 * [Kaggle Dataset](https://www.kaggle.com/datasets/abisheksudarshan/customer-segmentation)
+* [Tableau graphs](https://public.tableau.com/views/CustomerSegmentation_16948346728760/CustomersbyGender?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link)
 
 ## Instructions
  - In order to run the model into your local environment, you will need to clone the repo 
