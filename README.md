@@ -20,23 +20,28 @@
      pip install -r requirements.txt
  ```
  - Finally you have to open the file with `jupyter-notebooks` or `google-collaboratory` to run it
+ - Before running `v1_0.ipynb` it's necessary to run `encoders, scalers and models`
 
 ## Main structure
 - Into this repo you will find the next structure
 
 ```
-├── credit-card-offer
+├── bc-final-project
 │   ├── README.txt
-│   ├── creditcardmarketing.csv
-│   ├── creditcardmarketing_db.csv
-│   ├── credit_card_offer_classification.ipynb
-│   ├── credit_marketing.sql
+│   ├── data
+│   ├── encoders
+│   ├── images
+│   ├── models
+│   ├── notebooks
+│   ├── scalers
 │   ├── requirements.tx
 ```
 
 * README: File to add docs to the repo
-* creditcarmarketing: Dataset used for the analysis
-* creditcarmarketing_db: File used as data source for my database on MySQL
-* credit_card_offer_classification: Notebook with the base code
-* requirements: File with libraries required
-* credit_marketing.sql: Queries required on SQL excercises
+* data: Folder used to store all those files used as data source anda data ouput.
+* encoders: Folder with small pieces of code used as encoders for the project.
+* images: Folder that stores images required by README file.
+* models: Folder with small pieces of code used as models for the project.
+* scalers.sql: Folder with small pieces of code used as scalers for the project.
+* notebooks: Main file with the logic required to run the project.
+* requirements.txt: File with libraries required to run the project.
